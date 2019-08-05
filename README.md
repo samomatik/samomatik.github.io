@@ -1,3 +1,3 @@
 # Portfolio
 
-Portfolio of projects I have done on my own time
+Portfolio of projects I have done
