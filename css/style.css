@@ -26,7 +26,7 @@ body {
     background: var(--dark-shade);
     height: 100%;
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 1fr 3fr;
     grid-template-areas: "sidebar content";
 }
 
@@ -61,11 +61,23 @@ body {
 }
 
 .card h4 {
-    padding: 0 0 2rem 0;
+    margin: 0 0 1rem 0;
+}
+
+.card img {
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.shadow {
+    -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow:    2px 2px 5px rgba(0, 0, 0, 0.8);  /* Firefox 3.5 - 3.6 */
+    box-shadow:         2px 2px 5px rgba(0, 0, 0, 0.8);  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
 }
 
 .btn {
-    padding: 0.5rem 2rem;
+    margin: 1rem 0 0 0;
+    padding: 1rem 2rem;
     color: var(--main-color);
     background-color: var(--dark-shade);
     border: 2px solid var(--dark-shade);
@@ -81,7 +93,7 @@ body {
 
 .btn:active {
     color: var(--dark-shade);
-    background-color: var(--light-shade);
+    background-color: var(--dark-accent);
 }
 
 @media(max-width: 700px) {
