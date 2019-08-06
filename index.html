@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="js/main.js"></script>
+    
     <link rel="stylesheet" href="css/style.css">
     <title>Samitha Padukkage Don - Front End Web Developer Portfolio</title>
 </head>
@@ -13,45 +13,59 @@
         <div class="sidebar">
             <h1>Samitha Padukkage Don</h1>
             <h2>Front End Web Developer</h3>
-            <!-- <img src="imgs/15965422_10210812109911345_6831834037193466021_n.jpg" alt=""> -->
+            <!-- <img src="imgs/15965422_10210812109911345_6831834037193466021_n.jpg" alt="" class="shadow"> -->
+            <section class="nav">
+                <button id="skillsBtn" class="btn modalBtn">Skills</button>
+                <button id="aboutMeBtn" class="btn modalBtn">About Me</button>
+            </section>
         </div>
         <div class="content">
             <section class="card shadow">
-                <h4>Netflix Landing Page</h4>
+                <h3>Netflix Landing Page</h3>
                 <img src="imgs/pcf_thumb.jpg" />
                 <button class="btn">Launch</button>
             </section>
             <section class="card shadow">
-                <h4>Netflix Landing Page</h4>
+                <h3>Netflix Landing Page</h3>
                 <img src="imgs/pcf_thumb.jpg" />
                 <button class="btn">Launch</button>
             </section>
             <section class="card shadow">
-                <h4>Netflix Landing Page</h4>
+                <h3>Netflix Landing Page</h3>
                 <img src="imgs/pcf_thumb.jpg" />
                 <button class="btn">Launch</button>
             </section>
             <section class="card shadow">
-                <h4>Netflix Landing Page</h4>
-                <img src="imgs/pcf_thumb.jpg" />
-                <button class="btn">Launch</button>
-            </section>
-            <section class="card shadow">
-                <h4>Netflix Landing Page</h4>
-                <img src="imgs/pcf_thumb.jpg" />
-                <button class="btn">Launch</button>
-            </section>
-            <section class="card shadow">
-                <h4>Netflix Landing Page</h4>
-                <img src="imgs/pcf_thumb.jpg" />
-                <button class="btn">Launch</button>
-            </section>
-            <section class="card shadow">
-                <h4>Netflix Landing Page</h4>
+                <h3>Netflix Landing Page</h3>
                 <img src="imgs/pcf_thumb.jpg" />
                 <button class="btn">Launch</button>
             </section>
         </div>
     </div>
+    <div id="skillsModal" class="modal">
+        <div class="modal-content">
+            <h3>Skills</h3>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>ES6/JavaScript</li>
+                <li>React</li>
+                <li>NPM</li>
+                <li>Git Version Control</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="aboutMeModal" class="modal">
+        <div class="modal-content">
+            <h3>About Me</h3>
+            <h4>I'm Awesome!</h4>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
 </body>
+
+
+
 </html>
