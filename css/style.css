@@ -87,7 +87,7 @@ body {
 .btn {
     margin-top: 1rem;
     padding: 1rem 2rem;
-    color: var(--main-color);
+    color: var(--light-accent);
     background-color: var(--dark-shade);
     border: 2px solid var(--dark-shade);
     border-radius: 2px;
