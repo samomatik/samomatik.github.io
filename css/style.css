@@ -20,7 +20,8 @@ body {
     color: var(--main-color);
     text-align: center;
     height: 100vh;
-    font-size: calc(14px + (20 - 14) * ((100vw - 300px) / (2560 - 300)));
+    font-size: calc(11px + (20 - 11) * ((100vw - 300px) / (2560 - 300)));
+    line-height: 1.5;
 }
 
 .container {
@@ -139,6 +140,7 @@ body {
   height: 100%; 
   background-color: rgb(0, 0, 0);
   background-color: rgba(0, 0, 0, 0.7);
+  overflow: auto;
 }
 .modal-content {
   position: relative; 
@@ -167,7 +169,6 @@ body {
 
 #aboutMeModal p {
     text-align: left;
-    line-height: 1.5rem;
 }
 
 .skills {
