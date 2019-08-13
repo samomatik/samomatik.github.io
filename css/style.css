@@ -73,9 +73,8 @@ body {
     margin-bottom: 1rem;
 }
 
-.card img {
-    width: 100%;
-    margin: 1rem 0;
+.card p {
+    margin: 1rem;
 }
 
 .shadow {
@@ -85,13 +84,15 @@ body {
 }
 
 .btn {
-    margin-top: 1rem;
+    display: inline-block;
+    margin: 1rem;
     padding: 1rem 2rem;
     color: var(--light-accent);
     background-color: var(--dark-shade);
     border: 2px solid var(--dark-shade);
     border-radius: 2px;
     font-size: 1rem;
+    text-decoration: none;
     -webkit-transition: color 0.3s, border 0.3s, background-color 0.1s; /* Safari prior 6.1 */
     transition: color 0.3s, border 0.3s, background-color 0.1s;
 }
