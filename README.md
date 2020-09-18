@@ -1,6 +1,6 @@
 # Portfolio
 
-Portfolio of projects I have done.
+Portfolio of projects I have done, which you can visit [here!](https://samomatik.github.io/)
 
 This site has been made purely using HTML, CSS and vanilla JavaScript with no external JavaScript libraries or tools at all, more as a challenge to myself more than anything else.
 
